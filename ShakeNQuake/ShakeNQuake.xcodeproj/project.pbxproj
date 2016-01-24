@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A301D1A1C548FE100A4A71D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A301D191C548FE100A4A71D /* AppDelegate.swift */; };
+		5A301D211C548FE100A4A71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A301D201C548FE100A4A71D /* Assets.xcassets */; };
+		5A301D241C548FE100A4A71D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A301D221C548FE100A4A71D /* LaunchScreen.storyboard */; };
+		5A301D2F1C548FE100A4A71D /* ShakeNQuakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A301D2E1C548FE100A4A71D /* ShakeNQuakeTests.swift */; };
+		5A301D3A1C548FE100A4A71D /* ShakeNQuakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A301D391C548FE100A4A71D /* ShakeNQuakeUITests.swift */; };
+		5A301D491C5490A900A4A71D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A301D471C5490A900A4A71D /* RootViewController.swift */; };
+		5A301D4A1C5490A900A4A71D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A301D481C5490A900A4A71D /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A301D2B1C548FE100A4A71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A301D0E1C548FE100A4A71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A301D151C548FE100A4A71D;
+			remoteInfo = ShakeNQuake;
+		};
+		5A301D361C548FE100A4A71D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A301D0E1C548FE100A4A71D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A301D151C548FE100A4A71D;
+			remoteInfo = ShakeNQuake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A301D161C548FE100A4A71D /* ShakeNQuake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeNQuake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A301D191C548FE100A4A71D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A301D201C548FE100A4A71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A301D231C548FE100A4A71D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A301D251C548FE100A4A71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A301D2A1C548FE100A4A71D /* ShakeNQuakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeNQuakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A301D2E1C548FE100A4A71D /* ShakeNQuakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeNQuakeTests.swift; sourceTree = "<group>"; };
+		5A301D301C548FE100A4A71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A301D351C548FE100A4A71D /* ShakeNQuakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeNQuakeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A301D391C548FE100A4A71D /* ShakeNQuakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeNQuakeUITests.swift; sourceTree = "<group>"; };
+		5A301D3B1C548FE100A4A71D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A301D471C5490A900A4A71D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5A301D481C5490A900A4A71D /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A301D131C548FE100A4A71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D271C548FE100A4A71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D321C548FE100A4A71D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A301D0D1C548FE100A4A71D = {
+			isa = PBXGroup;
+			children = (
+				5A301D181C548FE100A4A71D /* ShakeNQuake */,
+				5A301D2D1C548FE100A4A71D /* ShakeNQuakeTests */,
+				5A301D381C548FE100A4A71D /* ShakeNQuakeUITests */,
+				5A301D171C548FE100A4A71D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A301D171C548FE100A4A71D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A301D161C548FE100A4A71D /* ShakeNQuake.app */,
+				5A301D2A1C548FE100A4A71D /* ShakeNQuakeTests.xctest */,
+				5A301D351C548FE100A4A71D /* ShakeNQuakeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A301D181C548FE100A4A71D /* ShakeNQuake */ = {
+			isa = PBXGroup;
+			children = (
+				5A301D191C548FE100A4A71D /* AppDelegate.swift */,
+				5A301D201C548FE100A4A71D /* Assets.xcassets */,
+				5A301D221C548FE100A4A71D /* LaunchScreen.storyboard */,
+				5A301D251C548FE100A4A71D /* Info.plist */,
+				5A301D471C5490A900A4A71D /* RootViewController.swift */,
+				5A301D481C5490A900A4A71D /* RootViewController.xib */,
+			);
+			path = ShakeNQuake;
+			sourceTree = "<group>";
+		};
+		5A301D2D1C548FE100A4A71D /* ShakeNQuakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A301D2E1C548FE100A4A71D /* ShakeNQuakeTests.swift */,
+				5A301D301C548FE100A4A71D /* Info.plist */,
+			);
+			path = ShakeNQuakeTests;
+			sourceTree = "<group>";
+		};
+		5A301D381C548FE100A4A71D /* ShakeNQuakeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A301D391C548FE100A4A71D /* ShakeNQuakeUITests.swift */,
+				5A301D3B1C548FE100A4A71D /* Info.plist */,
+			);
+			path = ShakeNQuakeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A301D151C548FE100A4A71D /* ShakeNQuake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A301D3E1C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuake" */;
+			buildPhases = (
+				5A301D121C548FE100A4A71D /* Sources */,
+				5A301D131C548FE100A4A71D /* Frameworks */,
+				5A301D141C548FE100A4A71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeNQuake;
+			productName = ShakeNQuake;
+			productReference = 5A301D161C548FE100A4A71D /* ShakeNQuake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A301D291C548FE100A4A71D /* ShakeNQuakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A301D411C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuakeTests" */;
+			buildPhases = (
+				5A301D261C548FE100A4A71D /* Sources */,
+				5A301D271C548FE100A4A71D /* Frameworks */,
+				5A301D281C548FE100A4A71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A301D2C1C548FE100A4A71D /* PBXTargetDependency */,
+			);
+			name = ShakeNQuakeTests;
+			productName = ShakeNQuakeTests;
+			productReference = 5A301D2A1C548FE100A4A71D /* ShakeNQuakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A301D341C548FE100A4A71D /* ShakeNQuakeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A301D441C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuakeUITests" */;
+			buildPhases = (
+				5A301D311C548FE100A4A71D /* Sources */,
+				5A301D321C548FE100A4A71D /* Frameworks */,
+				5A301D331C548FE100A4A71D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A301D371C548FE100A4A71D /* PBXTargetDependency */,
+			);
+			name = ShakeNQuakeUITests;
+			productName = ShakeNQuakeUITests;
+			productReference = 5A301D351C548FE100A4A71D /* ShakeNQuakeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A301D0E1C548FE100A4A71D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rachel Bobbins";
+				TargetAttributes = {
+					5A301D151C548FE100A4A71D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5A301D291C548FE100A4A71D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5A301D151C548FE100A4A71D;
+					};
+					5A301D341C548FE100A4A71D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5A301D151C548FE100A4A71D;
+					};
+				};
+			};
+			buildConfigurationList = 5A301D111C548FE100A4A71D /* Build configuration list for PBXProject "ShakeNQuake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A301D0D1C548FE100A4A71D;
+			productRefGroup = 5A301D171C548FE100A4A71D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A301D151C548FE100A4A71D /* ShakeNQuake */,
+				5A301D291C548FE100A4A71D /* ShakeNQuakeTests */,
+				5A301D341C548FE100A4A71D /* ShakeNQuakeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A301D141C548FE100A4A71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A301D241C548FE100A4A71D /* LaunchScreen.storyboard in Resources */,
+				5A301D211C548FE100A4A71D /* Assets.xcassets in Resources */,
+				5A301D4A1C5490A900A4A71D /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D281C548FE100A4A71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D331C548FE100A4A71D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A301D121C548FE100A4A71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A301D491C5490A900A4A71D /* RootViewController.swift in Sources */,
+				5A301D1A1C548FE100A4A71D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D261C548FE100A4A71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A301D2F1C548FE100A4A71D /* ShakeNQuakeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A301D311C548FE100A4A71D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A301D3A1C548FE100A4A71D /* ShakeNQuakeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A301D2C1C548FE100A4A71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A301D151C548FE100A4A71D /* ShakeNQuake */;
+			targetProxy = 5A301D2B1C548FE100A4A71D /* PBXContainerItemProxy */;
+		};
+		5A301D371C548FE100A4A71D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A301D151C548FE100A4A71D /* ShakeNQuake */;
+			targetProxy = 5A301D361C548FE100A4A71D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A301D221C548FE100A4A71D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A301D231C548FE100A4A71D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A301D3C1C548FE100A4A71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A301D3D1C548FE100A4A71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A301D3F1C548FE100A4A71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeNQuake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A301D401C548FE100A4A71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeNQuake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A301D421C548FE100A4A71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeNQuakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeNQuake.app/ShakeNQuake";
+			};
+			name = Debug;
+		};
+		5A301D431C548FE100A4A71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShakeNQuakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuakeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeNQuake.app/ShakeNQuake";
+			};
+			name = Release;
+		};
+		5A301D451C548FE100A4A71D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakeNQuakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakeNQuake;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5A301D461C548FE100A4A71D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShakeNQuakeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bobbypins.ShakeNQuakeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShakeNQuake;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A301D111C548FE100A4A71D /* Build configuration list for PBXProject "ShakeNQuake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A301D3C1C548FE100A4A71D /* Debug */,
+				5A301D3D1C548FE100A4A71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A301D3E1C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A301D3F1C548FE100A4A71D /* Debug */,
+				5A301D401C548FE100A4A71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A301D411C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A301D421C548FE100A4A71D /* Debug */,
+				5A301D431C548FE100A4A71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A301D441C548FE100A4A71D /* Build configuration list for PBXNativeTarget "ShakeNQuakeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A301D451C548FE100A4A71D /* Debug */,
+				5A301D461C548FE100A4A71D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A301D0E1C548FE100A4A71D /* Project object */;
+}
